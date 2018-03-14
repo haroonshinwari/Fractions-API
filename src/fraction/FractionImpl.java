@@ -215,7 +215,22 @@ public class FractionImpl implements Fraction {
 
     @Override
     public int compareTo(Fraction o) {
-        return 0;
+        int a = this.numerator;
+        int b = this.denominator;
+        FractionImpl frac = (FractionImpl) o;
+        int c = frac.numerator;
+        int d = frac.denominator;
+
+        float abdecimal = (a / b);
+        float cddecimal = (c / d);
+
+        if (abdecimal > cddecimal){
+            return -24;
+        }else if (abdecimal < cddecimal){
+            return 24;
+        }else{
+            return 0;
+        }
     }
 
 

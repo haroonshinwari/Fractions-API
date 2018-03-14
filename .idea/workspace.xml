@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9af25024-4dbb-4f33-bc4b-5c7a380efe93" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/fraction/FractionImpl.java" afterPath="$PROJECT_DIR$/src/fraction/FractionImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/fraction/Main.java" afterPath="$PROJECT_DIR$/src/fraction/Main.java" />
-      <change beforePath="$PROJECT_DIR$/test/fraction/FractionTest.java" afterPath="$PROJECT_DIR$/test/fraction/FractionTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,18 +16,18 @@
       <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fraction/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="253">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FractionImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FractionImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fraction/FractionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="153" column="22" lean-forward="false" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+            <state relative-caret-position="154">
+              <caret line="232" column="9" lean-forward="false" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
               <folding>
                 <element signature="e#4592#4593#0" expanded="true" />
                 <element signature="e#4619#4620#0" expanded="true" />
@@ -41,10 +39,8 @@
                 <element signature="e#4847#4848#0" expanded="true" />
                 <element signature="e#5331#5332#0" expanded="true" />
                 <element signature="e#5358#5359#0" expanded="true" />
-                <element signature="e#5413#5414#0" expanded="true" />
-                <element signature="e#5437#5438#0" expanded="true" />
-                <element signature="e#5485#5486#0" expanded="true" />
-                <element signature="e#5512#5513#0" expanded="true" />
+                <element signature="e#5889#5890#0" expanded="true" />
+                <element signature="e#5916#5917#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fraction/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -326,12 +322,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521052645988</updated>
-      <workItem from="1521052649448" duration="16563000" />
+      <workItem from="1521052649448" duration="16883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16563000" />
+    <option name="totallyTimeSpent" value="16883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="732" extended-state="0" />
@@ -345,7 +341,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -395,6 +391,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/fraction/FractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fraction/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -411,16 +425,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fraction/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="253">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fraction/FractionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="153" column="22" lean-forward="false" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+        <state relative-caret-position="154">
+          <caret line="232" column="9" lean-forward="false" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
           <folding>
             <element signature="e#4592#4593#0" expanded="true" />
             <element signature="e#4619#4620#0" expanded="true" />
@@ -432,29 +446,9 @@
             <element signature="e#4847#4848#0" expanded="true" />
             <element signature="e#5331#5332#0" expanded="true" />
             <element signature="e#5358#5359#0" expanded="true" />
-            <element signature="e#5413#5414#0" expanded="true" />
-            <element signature="e#5437#5438#0" expanded="true" />
-            <element signature="e#5485#5486#0" expanded="true" />
-            <element signature="e#5512#5513#0" expanded="true" />
+            <element signature="e#5889#5890#0" expanded="true" />
+            <element signature="e#5916#5917#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fraction/FractionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fraction/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
