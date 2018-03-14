@@ -84,8 +84,6 @@ public class FractionImpl implements Fraction {
             this.numerator = num;
             this.denominator = 1;
         } else {
-            System.out.println(fraction);
-
             int m = fraction.indexOf("/");
 
             int num = Integer.parseInt(fraction.substring(0, m));
@@ -138,8 +136,6 @@ public class FractionImpl implements Fraction {
 
         int num = (a*d) - (b*c);
         int den = (b*d);
-        System.out.println(num);
-        System.out.println(den);
         FractionImpl subresult = new FractionImpl(num,den);
         System.out.println(subresult);
         return subresult;
@@ -148,7 +144,19 @@ public class FractionImpl implements Fraction {
 
     @Override
     public Fraction multiply(Fraction f) {
-        return null;
+        int a = this.numerator;
+        int b = this.denominator;
+        FractionImpl frac = (FractionImpl) f;
+        int c = frac.numerator;
+        int d = frac.denominator;
+
+        int num = (a*c);
+        int den = (b*d);
+        System.out.println(num);
+        System.out.println(den);
+        FractionImpl result = new FractionImpl(num,den);
+        System.out.println(result);
+        return result;
     }
 
 
@@ -176,10 +184,21 @@ public class FractionImpl implements Fraction {
     }
 
 
-    @Override
+/*    @Override
     public boolean equals(Object obj) {
+        int a = this.numerator;
+        int b = this.denominator;
+        FractionImpl equal = (FractionImpl) obj;
+
+*//*        if (obj == ){
+            return true;
+        }else{
+            return false
+        }
+
+
         return super.equals(obj);
-    }
+    }*/
 
 
     @Override
