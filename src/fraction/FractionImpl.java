@@ -116,10 +116,10 @@ public class FractionImpl implements Fraction {
     @Override
     public Fraction add(Fraction f) {
         FractionImpl frac = (FractionImpl) f;
-        int a = frac.numerator;
-        int b = frac.denominator;
-        int c = this.numerator;
-        int d = this.denominator;
+        int a = this.numerator;
+        int b = this.denominator;
+        int c = frac.numerator;
+        int d = frac.denominator;
 
         int num = ((a*d) + (b*c));
         int den = (b*d);
@@ -130,7 +130,19 @@ public class FractionImpl implements Fraction {
 
     @Override
     public Fraction subtract(Fraction f) {
-        return null;
+        int a = this.numerator;
+        int b = this.denominator;
+        FractionImpl frac = (FractionImpl) f;
+        int c = frac.numerator;
+        int d = frac.denominator;
+
+        int num = (a*d) - (b*c);
+        int den = (b*d);
+        System.out.println(num);
+        System.out.println(den);
+        FractionImpl subresult = new FractionImpl(num,den);
+        System.out.println(subresult);
+        return subresult;
     }
 
 
