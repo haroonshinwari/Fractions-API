@@ -3,7 +3,6 @@ package fraction;
 import org.junit.Test;
 
 public class FractionTest {
-
     // complete the tests and add more
 
     @Test
