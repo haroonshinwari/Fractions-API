@@ -52,7 +52,8 @@ public class FractionImpl implements Fraction {
      * @param wholeNumber representing the numerator
      */
     public FractionImpl(int wholeNumber) {
-        
+        this.numerator = wholeNumber;
+        this.denominator = 1;
     }
 
     /**
@@ -67,7 +68,15 @@ public class FractionImpl implements Fraction {
      * @param fraction the string representation of the fraction
      */
     public FractionImpl(String fraction) {
-        // TODO
+        if (fraction.contains("/") == false) {
+            int num =  Integer.parseInt(fraction);
+            this.numerator = num;
+            this.denominator = 1;
+
+        }else{
+
+
+        }
     }
 
     /**
