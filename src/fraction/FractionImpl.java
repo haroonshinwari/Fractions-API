@@ -26,22 +26,29 @@ public class FractionImpl implements Fraction {
 
         if (n > d) {
             gcd= GCD(numerator, denominator);
-        }
-        else if (d > n) {
+        } else if (d > n) {
             gcd = GCD(denominator, numerator);
+        } else {
+            n = d;
         }
-        else {
-            gcd = n;
-        }
+
         this.numerator = n/gcd;
         this.denominator = d/gcd;
     }
 
     private int GCD(int larger, int smaller) {
         int result = 0;
-        while (larger != larger % smaller) {
-            larger = larger % smaller;
-            result = larger;
+        while (true) {
+            int remainder = larger % smaller;
+            if (remainder == 0){
+                result = smaller;
+                break;
+            }else{
+                larger = smaller;
+                smaller = remainder;
+            }
+
+            result = smaller;
         }
         return smaller;
     }
@@ -68,110 +75,114 @@ public class FractionImpl implements Fraction {
      * @param fraction the string representation of the fraction
      */
     public FractionImpl(String fraction) {
-        if (fraction.contains("/") == false) {
-            int num =  Integer.parseInt(fraction);
+
+        if (fraction.contains(" ")) {
+            fraction = fraction.replace(" ", "");
+        }
+        if (fraction.contains("/") == false){
+            int num = Integer.parseInt(fraction);
             this.numerator = num;
             this.denominator = 1;
+        } else {
+            System.out.println(fraction);
 
-        }else{
+            int m = fraction.indexOf("/");
+
+            int num = Integer.parseInt(fraction.substring(0, m));
+            int den = Integer.parseInt(fraction.substring(m + 1));
+
+            int gcd = 1;
+
+            if (den == 0){
+                throw new ArithmeticException("Divide by zero");
+            }
+
+            if (num > den) {
+                gcd= GCD(num, den);
+            } else if (den > num) {
+                gcd = GCD(den, num);
+            } else {
+                num = den;
+            }
+
+            this.numerator = num/gcd;
+            this.denominator = den/gcd;
 
 
-        }
+            }
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public Fraction add(Fraction f) {
         return null;
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public Fraction subtract(Fraction f) {
         return null;
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public Fraction multiply(Fraction f) {
         return null;
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public Fraction divide(Fraction f) {
         return null;
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public Fraction abs() {
         return null;
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public Fraction negate() {
         return null;
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public int hashCode() {
         return super.hashCode();
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public Fraction inverse() {
         return null;
     }
 
-    /**
-     * @inheritDoc
-     */
+
     @Override
     public int compareTo(Fraction o) {
         return 0;
     }
 
-    /**
-     * @inheritDoc
-     */
+
+
     @Override
     public String toString() {
         return null;
     }
+
 }
