@@ -33,9 +33,14 @@ public class FractionTest {
         assertEquals(frac2, frac1.multiply(frac5));
     }
 
-
+    @Test
+    public void testDivision() {
+        //Test for division
+        assertEquals(frac6, frac3.divide(frac2));
+    }
+    
     @Test(expected = ArithmeticException.class)
-    public void testDivideByZero() {
+    public void testDivideByZero(){
         // test that should throw an ArithmeticException
     }
 }
