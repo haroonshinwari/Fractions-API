@@ -15,6 +15,13 @@ public class FractionTest {
     FractionImpl frac6 = new FractionImpl(3,4);
     FractionImpl frac7 = new FractionImpl(2,7);
 
+    @Test
+    public void testAdd() {
+        // Tests that are expected to succeed or fail
+        //Test for addition
+        assertEquals(frac6, frac1.add(frac3));
+    }
+
 
 
 
