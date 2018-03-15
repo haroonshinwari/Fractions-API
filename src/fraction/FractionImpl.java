@@ -141,7 +141,7 @@ public class FractionImpl implements Fraction {
         System.out.println(num);
         System.out.println(den);
         FractionImpl subtractresult = new FractionImpl(num,den);
-        //System.out.println(subtractresult);
+        System.out.println(subtractresult);
         return subtractresult;
     }
 
@@ -239,7 +239,19 @@ public class FractionImpl implements Fraction {
 
     @Override
     public String toString() {
-        return null;
+        int a = this.numerator;
+        int b = this.denominator;
+
+        if (b == 1) {
+            return "" + a;
+        }else if ((a ^ b) < 0){
+            return "-" + a + "/" + b;
+        }else if (a == 0) {
+            return "0";
+        }else{
+            return "" + a + "/" + b;
+        }
+
     }
 
 }

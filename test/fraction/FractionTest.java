@@ -28,6 +28,7 @@ public class FractionTest {
     }
 
 
+
     @Test(expected = ArithmeticException.class)
     public void testDivideByZero() {
         // test that should throw an ArithmeticException
