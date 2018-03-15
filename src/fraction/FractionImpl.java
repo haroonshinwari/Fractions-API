@@ -1,5 +1,7 @@
 package fraction;
 
+import java.security.KeyStore;
+
 public class FractionImpl implements Fraction {
     //CHANGE BACK TO PRIVATE
     public int numerator;
@@ -184,21 +186,22 @@ public class FractionImpl implements Fraction {
     }
 
 
-/*    @Override
+    @Override
     public boolean equals(Object obj) {
-        int a = this.numerator;
-        int b = this.denominator;
-        FractionImpl equal = (FractionImpl) obj;
 
-*//*        if (obj == ){
-            return true;
+        if(obj instanceof Fraction) {
+            FractionImpl frac = (FractionImpl) obj;
+            int result = frac.compareTo(this);
+            if (result == 0) {
+                return true;
+            }else {
+                return false;
+            }
         }else{
-            return false
+            throw new ClassCastException();
         }
 
-
-        return super.equals(obj);
-    }*/
+    }
 
 
     @Override
@@ -221,8 +224,8 @@ public class FractionImpl implements Fraction {
         int c = frac.numerator;
         int d = frac.denominator;
 
-        float abdecimal = (a / b);
-        float cddecimal = (c / d);
+        float abdecimal = (float) a / b;
+        float cddecimal = (float) c / d;
 
         if (abdecimal > cddecimal){
             return -24;

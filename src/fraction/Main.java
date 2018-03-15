@@ -7,8 +7,8 @@ public class Main {
    /*     System.out.println(frac.numerator);
         System.out.println(frac.denominator);*/
 
-        FractionImpl frac2 = new FractionImpl(1,4);
-        frac.multiply(frac2);
+        FractionImpl frac2 = new FractionImpl(3,7);
+        System.out.println(frac.compareTo(frac2));
 
 
     }
