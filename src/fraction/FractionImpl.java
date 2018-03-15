@@ -156,14 +156,23 @@ public class FractionImpl implements Fraction {
 
         int num = (a*c);
         int den = (b*d);
-        FractionImpl result = new FractionImpl(num,den);
-        return result;
+        FractionImpl multiresult = new FractionImpl(num,den);
+        return multiresult;
     }
 
 
     @Override
     public Fraction divide(Fraction f) {
-        return null;
+        int a = this.numerator;
+        int b = this.denominator;
+        FractionImpl frac = (FractionImpl) f;
+        int c = frac.numerator;
+        int d = frac.denominator;
+
+        int num = (a*d);
+        int den = (b*c);
+        FractionImpl divideresult = new FractionImpl(num,den);
+        return divideresult;
     }
 
 

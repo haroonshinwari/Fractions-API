@@ -19,7 +19,7 @@ public class Main {
         FractionImpl frac6 = new FractionImpl(3,4);
         FractionImpl frac7 = new FractionImpl(2,7);
 
-        System.out.println(fra.multiply(frac5));
+        System.out.println(fra.divide(frac5));
 
     }
 }
