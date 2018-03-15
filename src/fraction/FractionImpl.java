@@ -169,6 +169,16 @@ public class FractionImpl implements Fraction {
 
     @Override
     public Fraction abs() {
+/*        int a = this.numerator;
+        int b = this.denominator;
+
+        if (a < 0) {
+             int aa = a * -1;
+             this.numerator = aa;
+        }
+        if (b < 0){
+            int bb = b * -1;
+            this.numerator = bb;*/
         return null;
     }
 
@@ -245,7 +255,7 @@ public class FractionImpl implements Fraction {
         if (b == 1) {
             return "" + a;
         }else if ((a ^ b) < 0){
-            return "-" + a + "/" + b;
+            return "-" + Math.abs(a)+ "/" + Math.abs(b);
         }else if (a == 0) {
             return "0";
         }else{

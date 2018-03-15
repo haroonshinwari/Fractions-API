@@ -3,9 +3,10 @@ package fraction;
 public class Main {
 
     public static void main(String[] args) {
-        FractionImpl fracasdsad = new FractionImpl(" 3 / 7" );
-   /*     System.out.println(frac.numerator);
-        System.out.println(frac.denominator);*/
+        FractionImpl fra = new FractionImpl(" -3 / 7" );
+        /*System.out.println(fra.numerator);
+        System.out.println(fra.denominator);
+        System.out.println(fra);*/
 
   /*      FractionImpl frac2asdasd = new FractionImpl(3,7);
         System.out.println(frac.compareTo(frac2));*/
@@ -18,7 +19,7 @@ public class Main {
         FractionImpl frac6 = new FractionImpl(3,4);
         FractionImpl frac7 = new FractionImpl(2,7);
 
-        frac6.subtract(frac3);
+        System.out.println(fra.multiply(frac5));
 
     }
 }

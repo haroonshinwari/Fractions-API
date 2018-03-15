@@ -27,6 +27,11 @@ public class FractionTest {
         assertEquals(frac1, frac6.subtract(frac3));
     }
 
+    @Test
+    public void testMultiplication() {
+        //Test for multiplication
+        assertEquals(frac2, frac1.multiply(frac5));
+    }
 
 
     @Test(expected = ArithmeticException.class)
