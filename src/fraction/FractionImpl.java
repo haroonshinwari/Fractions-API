@@ -203,8 +203,29 @@ public class FractionImpl implements Fraction {
     }
     @Override
     public Fraction negate() {
-        return null;
+        int a = this.numerator;
+        int b = this.denominator;
+        int nega = a * -1;
+        int negb = b * -1;
+
+        if (a < 0 && b > 0) {
+            FractionImpl negatea = new FractionImpl(nega, b);
+            return negatea;
+
+        }else if (a > 0 && b < 0) {
+            FractionImpl negateb = new FractionImpl(a, negb);
+            return negateb;
+
+        }else if (a > 0 && b> 0) {
+            FractionImpl negatec = new FractionImpl(nega, b);
+            return negatec;
+
+        }else {
+            FractionImpl negated = new FractionImpl(nega, negb);
+            return negated;
+            }
     }
+
 
 
     @Override
