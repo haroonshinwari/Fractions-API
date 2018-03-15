@@ -178,20 +178,29 @@ public class FractionImpl implements Fraction {
 
     @Override
     public Fraction abs() {
-/*        int a = this.numerator;
+        int a = this.numerator;
         int b = this.denominator;
 
-        if (a < 0) {
-             int aa = a * -1;
-             this.numerator = aa;
+
+        if (a > 0 && b > 0) {
+            FractionImpl absa = new FractionImpl(a, b);
+            return absa;
+        }else if (a > 0 && b < 0) {
+            int den = b * -1;
+            FractionImpl absb = new FractionImpl(a, den);
+            return absb;
+        }else if (a < 0 && b > 0) {
+            int num = a * -1;
+            FractionImpl absc = new FractionImpl(num, b);
+            return absc;
+        }else{
+            int num = a * -1;
+            int den = b * -1;
+            FractionImpl absd = new FractionImpl(num, den);
+            return absd;
         }
-        if (b < 0){
-            int bb = b * -1;
-            this.numerator = bb;*/
-        return null;
+
     }
-
-
     @Override
     public Fraction negate() {
         return null;
