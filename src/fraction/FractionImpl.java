@@ -138,9 +138,11 @@ public class FractionImpl implements Fraction {
 
         int num = (a*d) - (b*c);
         int den = (b*d);
-        FractionImpl subresult = new FractionImpl(num,den);
-        System.out.println(subresult);
-        return subresult;
+        System.out.println(num);
+        System.out.println(den);
+        FractionImpl subtractresult = new FractionImpl(num,den);
+        //System.out.println(subtractresult);
+        return subtractresult;
     }
 
 
@@ -154,10 +156,7 @@ public class FractionImpl implements Fraction {
 
         int num = (a*c);
         int den = (b*d);
-        System.out.println(num);
-        System.out.println(den);
         FractionImpl result = new FractionImpl(num,den);
-        System.out.println(result);
         return result;
     }
 

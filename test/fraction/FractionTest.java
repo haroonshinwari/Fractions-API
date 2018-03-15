@@ -21,10 +21,11 @@ public class FractionTest {
         //Test for addition
         assertEquals(frac6, frac1.add(frac3));
     }
-
-
-
-
+    @Test
+    public void testSubtract() {
+        //Test for subtraction
+        assertEquals(frac1, frac6.subtract(frac3));
+    }
 
 
     @Test(expected = ArithmeticException.class)
