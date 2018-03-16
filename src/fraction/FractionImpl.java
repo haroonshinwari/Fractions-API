@@ -260,7 +260,11 @@ public class FractionImpl implements Fraction {
 
     @Override
     public Fraction inverse() {
-        return null;
+        int a = this.numerator;
+        int b = this.denominator;
+
+        FractionImpl inverse = new FractionImpl(b, a);
+        return inverse;
     }
 
 

@@ -14,6 +14,9 @@ public class FractionTest {
     FractionImpl frac5 = new FractionImpl(2,3);
     FractionImpl frac6 = new FractionImpl(3,4);
     FractionImpl frac7 = new FractionImpl(2,7);
+    FractionImpl frac8 = new FractionImpl(-2,7);
+    FractionImpl frac9 = new FractionImpl(-2,-7);
+    FractionImpl frac10 = new FractionImpl(2,1);
 
     @Test
     public void testAdd() {
@@ -42,8 +45,26 @@ public class FractionTest {
     @Test
     public void testAbs() {
         //Test for abs
-        assertEquals(frac6, frac3.divide(frac2));
+        assertEquals(frac7, frac7.abs());
+        assertEquals(frac7, frac8.abs());
+        assertEquals(frac8, frac9.abs());
     }
+
+    @Test
+    public void testNegate() {
+        //Test for Negate
+        assertEquals(frac8, frac7.negate());
+    }
+
+    @Test
+    public void inverse() {
+        //Test for inverse
+        assertEquals(frac10, frac1.inverse());
+        assertEquals(frac1, frac10.inverse());
+    }
+
+    
+
 
     @Test(expected = ArithmeticException.class)
     public void testDivideByZero(){
