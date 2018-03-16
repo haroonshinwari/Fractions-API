@@ -48,7 +48,7 @@ public class FractionTest {
         //Test for abs
         assertEquals(frac7, frac7.abs());
         assertEquals(frac7, frac8.abs());
-        assertEquals(frac8, frac9.abs());
+        assertEquals(frac7, frac9.abs());
     }
 
     @Test
@@ -89,5 +89,6 @@ public class FractionTest {
     @Test(expected = ArithmeticException.class)
     public void testDivideByZero(){
         // test that should throw an ArithmeticException
+        FractionImpl frac24 = new FractionImpl(2,0);
     }
 }
