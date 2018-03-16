@@ -3,6 +3,7 @@ package fraction;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class FractionTest {
     // complete the tests and add more
@@ -57,13 +58,32 @@ public class FractionTest {
     }
 
     @Test
-    public void inverse() {
+    public void testInverse() {
         //Test for inverse
         assertEquals(frac10, frac1.inverse());
         assertEquals(frac1, frac10.inverse());
     }
 
-    
+
+    @Test
+    public void testEquals() {
+        //Test for equals
+        assertTrue(frac9.equals(frac7));
+    }
+
+    @Test
+    public void testCompareto() {
+        //Test for compare to
+        assertEquals(0, frac9.compareTo(frac7));
+        assertEquals(24, frac2.compareTo(frac1));
+        assertEquals(-24, frac1.compareTo(frac2));
+    }
+
+    @Test
+    public void testToString() {
+        //Test for to string
+        assertTrue(frac9.equals(frac7));
+    }
 
 
     @Test(expected = ArithmeticException.class)

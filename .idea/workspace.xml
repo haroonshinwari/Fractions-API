@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af25024-4dbb-4f33-bc4b-5c7a380efe93" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/fraction/FractionImpl.java" afterPath="$PROJECT_DIR$/src/fraction/FractionImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/fraction/Main.java" afterPath="$PROJECT_DIR$/src/fraction/Main.java" />
       <change beforePath="$PROJECT_DIR$/test/fraction/FractionTest.java" afterPath="$PROJECT_DIR$/test/fraction/FractionTest.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +16,7 @@
       <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fraction/Fraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
+            <state relative-caret-position="711">
               <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
               <folding />
             </state>
@@ -29,7 +26,7 @@
       <file leaf-file-name="FractionImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fraction/FractionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-799">
+            <state relative-caret-position="-1011">
               <caret line="201" column="0" lean-forward="true" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
               <folding>
                 <element signature="e#6352#6353#0" expanded="true" />
@@ -58,7 +55,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fraction/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="229">
               <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding />
             </state>
@@ -68,8 +65,8 @@
       <file leaf-file-name="FractionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/fraction/FractionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+            <state relative-caret-position="-43">
+              <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,32 +197,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.FractionTest.testEquals">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="fraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="fraction.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="javatwofractions" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -241,7 +219,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="FractionTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="fraction.*" />
@@ -253,7 +231,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="fraction" />
       <option name="MAIN_CLASS_NAME" value="fraction.FractionTest" />
-      <option name="METHOD_NAME" value="testAdd" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FractionTest.testAbs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javatwofractions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fraction" />
+      <option name="MAIN_CLASS_NAME" value="fraction.FractionTest" />
+      <option name="METHOD_NAME" value="testAbs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -266,7 +269,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FractionTest.testDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FractionTest.testCompareto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="fraction.*" />
@@ -278,7 +281,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="fraction" />
       <option name="MAIN_CLASS_NAME" value="fraction.FractionTest" />
-      <option name="METHOD_NAME" value="testDivision" />
+      <option name="METHOD_NAME" value="testCompareto" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -291,7 +294,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FractionTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FractionTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="fraction.*" />
@@ -303,7 +306,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="fraction" />
       <option name="MAIN_CLASS_NAME" value="fraction.FractionTest" />
-      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="METHOD_NAME" value="testEquals" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -316,7 +319,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FractionTest.testSubtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FractionTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="fraction.*" />
@@ -328,7 +331,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="fraction" />
       <option name="MAIN_CLASS_NAME" value="fraction.FractionTest" />
-      <option name="METHOD_NAME" value="testSubtract" />
+      <option name="METHOD_NAME" value="testToString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -402,19 +405,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FractionTest.testAdd" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FractionTest.testSubtract" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FractionTest.testMultiplication" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FractionTest.testDivision" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FractionTest.testAbs" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FractionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FractionTest.testEquals" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FractionTest.testCompareto" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FractionTest.testToString" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FractionTest.testDivision" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FractionTest.testMultiplication" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FractionTest.testSubtract" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FractionTest.testAdd" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FractionTest.testEquals" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FractionTest.testToString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FractionTest.testCompareto" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FractionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FractionTest.testAbs" />
       </list>
     </recent_temporary>
   </component>
@@ -431,44 +434,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521052645988</updated>
-      <workItem from="1521052649448" duration="35257000" />
+      <workItem from="1521052649448" duration="38304000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FractionTest_testAdd - 2018.03.15 at 16h 35m 39s.xml">
-      <configuration name="FractionTest.testAdd" configurationId="JUnit" />
+    <history-entry file="FractionTest - 2018.03.16 at 19h 10m 53s.xml">
+      <configuration name="FractionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testAdd - 2018.03.15 at 16h 37m 33s.xml">
-      <configuration name="FractionTest.testAdd" configurationId="JUnit" />
+    <history-entry file="FractionTest_inverse - 2018.03.16 at 19h 09m 46s.xml">
+      <configuration name="FractionTest.inverse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testAdd - 2018.03.15 at 16h 38m 45s.xml">
-      <configuration name="FractionTest.testAdd" configurationId="JUnit" />
+    <history-entry file="FractionTest_testAbs - 2018.03.16 at 19h 09m 55s.xml">
+      <configuration name="FractionTest.testAbs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testAdd - 2018.03.15 at 16h 41m 45s.xml">
-      <configuration name="FractionTest.testAdd" configurationId="JUnit" />
+    <history-entry file="FractionTest_testCompareto - 2018.03.16 at 19h 23m 23s.xml">
+      <configuration name="FractionTest.testCompareto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testAdd - 2018.03.15 at 16h 42m 55s.xml">
-      <configuration name="FractionTest.testAdd" configurationId="JUnit" />
+    <history-entry file="FractionTest_testCompareto - 2018.03.16 at 19h 23m 50s.xml">
+      <configuration name="FractionTest.testCompareto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testDivision - 2018.03.15 at 20h 21m 50s.xml">
-      <configuration name="FractionTest.testDivision" configurationId="JUnit" />
+    <history-entry file="FractionTest_testCompareto - 2018.03.16 at 19h 24m 01s.xml">
+      <configuration name="FractionTest.testCompareto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testMultiplication - 2018.03.15 at 20h 07m 51s.xml">
-      <configuration name="FractionTest.testMultiplication" configurationId="JUnit" />
+    <history-entry file="FractionTest_testCompareto - 2018.03.16 at 19h 24m 35s.xml">
+      <configuration name="FractionTest.testCompareto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testSubtract - 2018.03.15 at 16h 42m 33s.xml">
-      <configuration name="FractionTest.testSubtract" configurationId="JUnit" />
+    <history-entry file="FractionTest_testEquals - 2018.03.16 at 19h 35m 25s.xml">
+      <configuration name="FractionTest.testEquals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testSubtract - 2018.03.15 at 16h 43m 00s.xml">
-      <configuration name="FractionTest.testSubtract" configurationId="JUnit" />
+    <history-entry file="FractionTest_testNegate - 2018.03.16 at 19h 09m 52s.xml">
+      <configuration name="FractionTest.testNegate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FractionTest_testSubtract - 2018.03.15 at 16h 58m 43s.xml">
-      <configuration name="FractionTest.testSubtract" configurationId="JUnit" />
+    <history-entry file="FractionTest_testToString - 2018.03.16 at 19h 35m 01s.xml">
+      <configuration name="FractionTest.testToString" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35257000" />
+    <option name="totallyTimeSpent" value="38304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="732" extended-state="0" />
@@ -482,7 +485,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -540,7 +543,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -563,7 +566,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fraction/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
+        <state relative-caret-position="711">
           <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding />
         </state>
@@ -583,17 +586,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fraction/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fraction/FractionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
+        <state relative-caret-position="-1011">
           <caret line="201" column="0" lean-forward="true" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
           <folding>
             <element signature="e#6352#6353#0" expanded="true" />
@@ -602,10 +597,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fraction/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/fraction/FractionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        <state relative-caret-position="-43">
+          <caret line="70" column="26" lean-forward="false" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
