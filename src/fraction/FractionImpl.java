@@ -4,8 +4,8 @@ import java.security.KeyStore;
 
 public class FractionImpl implements Fraction {
     //CHANGE BACK TO PRIVATE
-    public int numerator;
-    public int denominator;
+    private int numerator;
+    private int denominator;
     /**
      * Parameters are the <em>numerator</em> and the <em>denominator</em>.
      * Normalize the fraction as you create it.
@@ -107,8 +107,6 @@ public class FractionImpl implements Fraction {
 
             this.numerator = num/gcd;
             this.denominator = den/gcd;
-
-
             }
     }
 
@@ -138,10 +136,7 @@ public class FractionImpl implements Fraction {
 
         int num = (a*d) - (b*c);
         int den = (b*d);
-        System.out.println(num);
-        System.out.println(den);
         FractionImpl subtractresult = new FractionImpl(num,den);
-        System.out.println(subtractresult);
         return subtractresult;
     }
 
